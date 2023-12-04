@@ -1,0 +1,16 @@
+{
+  "name": "recipes-site",
+  "version": "1.0.0",
+  "description": "Site para as receitas da segunda unidade de Programação Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.0.3"
+  }
+}

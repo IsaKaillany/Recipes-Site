@@ -1,0 +1,25 @@
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #000;
+    color: #FFF;
+    padding: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card:hover {
+    background-color: #CC0000;
+}
+
+.linkPage {
+    text-decoration: none;
+    color: black;
+}
