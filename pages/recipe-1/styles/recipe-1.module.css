@@ -12,6 +12,9 @@
 
 .container h2 {
     margin: 0;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .container p {
