@@ -4,7 +4,7 @@ import styles from "./styles/movies3.module.css";
 
 export default function Movies3() {
     const { data, error } = useSWR(
-        `http://www.omdbapi.com/?apikey=de1cc0e1&s=brasil`,
+        `https://www.omdbapi.com/?apikey=de1cc0e1&s=brasil`,
         fetcher
     );
 
