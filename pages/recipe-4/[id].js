@@ -12,7 +12,7 @@ export default function About({ id }) {
     const router = useRouter();
     const { query } = router;
 
-    const url = `http://www.omdbapi.com/?apikey=de1cc0e1&i=${query.id}`;
+    const url = `https://www.omdbapi.com/?apikey=de1cc0e1&i=${query.id}`;
     const { data, error } = useSWR(url, fetcher);
 
     if (error) {
